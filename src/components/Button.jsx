@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 
 const outlinedStyle = css`
-color: #ed2186;
+color: red;
 background-color: transparent;
 &:hover {
   background-color: #af1e6630;

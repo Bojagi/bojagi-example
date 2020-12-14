@@ -17,7 +17,7 @@ const ActiveBar = styled.div`
   height: 6px;
   width: calc(${props => props.position}% - ${HANDLE_SIZE * 0.5}px);
   border-radius: 4px;
-  background-color: #af1e66;
+  background-color: red;
   border: 1px solid #af1e66;
   position: absolute;
   top: 0;
