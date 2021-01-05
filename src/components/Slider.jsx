@@ -9,8 +9,8 @@ const Bar = styled.div`
   height: 6px; 
   width: 100%;
   border-radius: 4px;
-  background-color: #eeeeee;
-  border: 1px solid #ddd;
+  background-color: #af1e66;
+  border: 1px solid #af1e66;
   position: relative;
 `;
 
