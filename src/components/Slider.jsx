@@ -9,8 +9,8 @@ const Bar = styled.div`
   height: 6px; 
   width: 100%;
   border-radius: 4px;
-  background-color: #af1e66;
-  border: 1px solid #af1e66;
+  background-color: #eeeeee;
+  border: 1px solid #ddd;
   position: relative;
 `;
 
@@ -18,8 +18,8 @@ const ActiveBar = styled.div`
   height: 6px;
   width: calc(${props => props.position}% - ${HANDLE_SIZE * 0.5}px);
   border-radius: 4px;
-  background-color: #af1e66;
-  border: 1px solid #af1e66;
+  background-color: rgb(30, 136, 175);
+  border: 1px solid rgb(30, 136, 175);
   position: absolute;
   top: 0;
   left: 0;
@@ -48,7 +48,7 @@ const Handle = styled.div`
     position: absolute;
     left: 50%;
     top: 50%;
-    background: linear-gradient(0deg, #af1e66 0%, #ed2186 100%);
+    background: linear-gradient(0deg, rgb(30, 136, 175) 0%, rgb(10, 84, 111) 100%);
     transform: translateX(-50%) translateY(-50%);
   }
 `;
